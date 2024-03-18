@@ -1,0 +1,3 @@
+import type { PartialExactOptional, Scenario, WalletTemplate } from '../lib.js';
+export declare const expectScenarioGenerationResult: import("ava").Macro<[string | undefined, string | undefined, PartialExactOptional<WalletTemplate>, string | Scenario, (PartialExactOptional<Pick<import("./compiler-types.js").CompilerConfiguration, "entityOwnership" | "lockingScriptTypes" | "scenarios" | "scripts" | "unlockingScripts" | "unlockingScriptTimeLockTypes" | "variables">> | undefined)?], unknown>;
+//# sourceMappingURL=scenarios.spec.d.ts.map

@@ -102,7 +102,7 @@ console.log(
   new Date(header.time * 1000).toDateString(),
   "\nDifficulty Target\n",
   binToHex(numberToBinInt32LE(header.difficultyTarget).reverse()),
-  "\nMerkle Hash\n",
+  "\nMerkle Hasxwh\n",
   binToHex(header.merkleRootHash),
 );
 
